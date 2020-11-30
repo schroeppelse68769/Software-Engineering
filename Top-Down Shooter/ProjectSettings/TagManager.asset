@@ -8,7 +8,6 @@ TagManager:
   - left
   - down
   - up
-  - killzone
   layers:
   - Default
   - TransparentFX
