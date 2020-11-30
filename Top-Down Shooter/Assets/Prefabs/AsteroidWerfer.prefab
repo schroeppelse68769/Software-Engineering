@@ -45,6 +45,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aster1: {fileID: 1626266745442686918, guid: 294a7b65219932a488a4acbcb3e2cda8, type: 3}
   aster2: {fileID: 3511968879525913532, guid: d40092ddc6f8b9b458447cc1c50c6f9d, type: 3}
-  links: 2.8
+  links: -2.8
   rechts: 2.8
   speed: 10
