@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 3511968879525913534}
   - component: {fileID: 3511968879525913533}
   - component: {fileID: 1029979574}
+  - component: {fileID: 463437606}
+  - component: {fileID: 463437613}
   m_Layer: 0
   m_Name: asteroid2
   m_TagString: Untagged
@@ -126,7 +128,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.09, y: 0}
@@ -145,3 +147,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explo: {fileID: 2696720329263102666, guid: 4b4a35a7aec4a5848ad061c906edbd3b, type: 3}
+--- !u!114 &463437606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3511968879525913532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2786c2577f81805438b0a4a465a6618c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &463437613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3511968879525913532}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468900c46407f9542a05da4538778e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explo: {fileID: 0}
